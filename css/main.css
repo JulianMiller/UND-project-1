@@ -1,0 +1,86 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+body{
+    background: #FEFEFE;
+    padding:0px;
+    margin:0px;
+}
+
+html {
+  font-family: 'Inconsolata', ;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+
+.navbar, .dropdown-menu{
+background:rgba(1,35,64,.80);
+border: none;
+font-family: 'Inconsolata', ;
+
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+ color: #fff;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #012340 5px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #026873 5px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #83A603 5px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #BBBF45 5px solid;
+}
+
+.lm {
+  background-image: url("/img/IMG_3347a.JPG");
+}
+
+.jumbotron {
+  padding: 0px 0px;
+  margin-top:0px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.cover {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
