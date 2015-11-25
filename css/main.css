@@ -23,6 +23,7 @@ font-family: 'Inconsolata', ;
 
 }
 
+
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
   border-bottom: 3px solid transparent;
 }
