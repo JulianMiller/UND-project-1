@@ -1,28 +1,59 @@
 /* ==========================================================================
    Julian's custom styles
    ========================================================================== */
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=inconsolata:400,700);
 
 body{
     background: #FEFEFE;
-    padding-top: 57px;
+    padding-top: 58px;
     padding-bottom: 20px;
 }
 
 html {
-  font-family: 'Inconsolata', ;
+  font-family: 'inconsolata', ;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #6aa774;
 }
 
 
 .navbar, .dropdown-menu{
 background:rgba(1,35,64,.80);
 border: none;
-font-family: 'Inconsolata', ;
+font-family: 'inconsolata', ;
 
 }
 
+.navbar-default {
+    background:transparent;
+    color: #ffffff;
+    border-color: #e7e7e7
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.navbar-inverse {
+    background:rgba(1,35,64,.80);
+    border-color: #080808
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background:transparent;
+}
 
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
   border-bottom: 3px solid transparent;
@@ -52,10 +83,6 @@ font-family: 'Inconsolata', ;
   border-bottom: #BBBF45 5px solid;
 }
 
-.lm {
-  background-image: url("/img/IMG_3347a.JPG");
-}
-
 .jumbotron {
   padding: 0px 0px;
   margin-top:0px;
@@ -67,6 +94,7 @@ font-family: 'Inconsolata', ;
 .cover {
   width: 100%;
 }
+
 
 
 

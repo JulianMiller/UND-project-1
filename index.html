@@ -27,10 +27,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar  navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,12 +41,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/julian-logo.png"></a>
+          <a class="navbar-brand" href="#"><img src="img/julian-logo.png" class="img-responsive">
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#social">Social</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -59,35 +62,54 @@
 
     <section>
         <div class="jumbotron">
-            <img src="img/IMG_3347a.JPG" class="cover">
+            <img src="img/IMG_3347a.png"
+                 srcset="img/IMG_3347c.png 1024w,
+                         img/IMG_3347b.png 640w,
+                         img/IMG_3347a.png 320w"
+                class="img-responsive"
+                alt="learnmetrics stationary">
         </div>
     </section>
     <div class="container">
-        <article>
-            <h1>Featured Projects</h1>
+        <div class="row">
             <hr>
+            <div class="col-md-1">
+                <img src="img/tinyme.png">
+            </div>
+            <div class="col-md-11">
+                <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Really chewing on the idea that - The grade book in the LMS is &quot;pedagogically vicious&quot; - <a href="https://twitter.com/Jessifer">@Jessifer</a> <a href="https://t.co/oMYwPuQ6EP">https://t.co/oMYwPuQ6EP</a> <a href="https://twitter.com/hashtag/edtech?src=hash">#edtech</a></p>&mdash; Julian Miller (@JulianMiller) <a href="https://twitter.com/JulianMiller/status/661658971141480449">November 3, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+            <div class="row">
+                <article>
+                    
+                    <hr>
 
-            <section class="col-md-4">
-                <img src="img/1.jpg" class="cover">
-                <h3>Startup Beer-pong</h3>
-                <p>from my photography project...<span class="label label-default pull-right">Read More</span></p>
-            </section>
+                    <section class="col-md-4">
+                        <img src="img/1.jpg" class="cover img-thumbnail">
+                        <h3>Startup Beer-pong</h3>
+                        <p>from my photography project...<span class="label label-default pull-right">Read More</span></p>
+                    </section>
 
-            <section class="col-md-4">
-                <img src="img/2.jpg" class="cover">
-                <h3>1871 Member's Council</h3>
-                <p>from my work as a co-chair...<span class="label label-default pull-right">Read More</span></p>
-            </section>
+                    <section class="col-md-4">
+                        <img src="img/2.jpg" class="cover img-thumbnail">
+                        <h3>1871 Member's Council</h3>
+                        <p>from my work as a co-chair...<span class="label label-default pull-right">Read More</span></p>
+                    </section>
 
-            <section class="col-md-4">
-                <img src="img/3.jpg" class="cover">
-                <h3>Boyband</h3>
-                <p>from my time in the music industry...<span class="label label-default pull-right">Read More</span></p>
-            </section>
+                    <section class="col-md-4">
+                        <img src="img/3.jpg" class="cover img-thumbnail">
+                        <h3>Boyband</h3>
+                        <p>from my time in the music industry...<span class="label label-default pull-right">Read More</span></p>
+                    </section>
 
-        </article>
+                </article>
+            </div>
+            
+        </div>
     </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </body>
 
 </html>
